@@ -254,7 +254,7 @@ endfunc
 " preview window
 "----------------------------------------------------------------------
 if !exists('g:preview#preview_position')
-	let g:preview#preview_position = "right"
+	let g:preview#preview_position = "bottom"
 endif
 
 if !exists('g:preview#preview_vsize')
@@ -262,8 +262,7 @@ if !exists('g:preview#preview_vsize')
 endif
 
 if !exists('g:preview#preview_size')
-	let g:preview#preview_size = 0
-endif
+	let g:preview#preview_size = 15
 
 
 " check preview window is open ?
